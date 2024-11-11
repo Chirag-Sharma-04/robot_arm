@@ -2,7 +2,7 @@
 
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
 
-    <xacro:args name="is_ignition" default="True"/>
+    <xacro:arg name="is_ignition" default="true"/>
 
     <xacro:include filename="$(find robot_description)/urdf/robot_gazebo.xacro"/> 
     <xacro:include filename="$(find robot_description)/urdf/robot_ros2_control.xacro"/>

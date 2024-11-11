@@ -5,13 +5,13 @@
     <xacro:property name="PI" value="3.14159"/>
 
     <ros2_control type="system" name="Robot_system">
-        <xacro:if value="$(args is_ignition0">
+        <xacro:if value="$(arg is_ignition)">
             <hardware>
                 <plugin>ign_ros2_control/IgnitionSystem</plugin>
             </hardware>
         </xacro:if>
 
-        <xacro:unless value="$(args is_ignition">
+        <xacro:unless value="$(arg is_ignition)">
             <hardware>
                 <plugin>gz_ros2_control/GazeboSimSystem</plugin>
             </hardware>

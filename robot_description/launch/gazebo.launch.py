@@ -26,6 +26,8 @@ def generate_launch_description():
     robot_description= ParameterValue(Command([
         "xacro ", 
         LaunchConfiguration("model"),
+        " is_ignition:=",
+        is_ignition
         ]),
         value_type=str)  #converting xacro to urdf format
     
