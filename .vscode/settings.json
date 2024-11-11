@@ -1,0 +1,28 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/jarvis/robot_arm_ws/build/robot_ctrl_py",
+        "/home/jarvis/robot_arm_ws/install/robot_ctrl_py/lib/python3.10/site-packages",
+        "/home/jarvis/colcon_ws/build/ur5_control",
+        "/home/jarvis/colcon_ws/install/ur5_control/lib/python3.10/site-packages",
+        "/home/jarvis/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages",
+        "/home/jarvis/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages",
+        "/home/jarvis/colcon_ws/build/custom",
+        "/home/jarvis/colcon_ws/install/custom/lib/python3.10/site-packages",
+        "/home/jarvis/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/jarvis/robot_arm_ws/build/robot_ctrl_py",
+        "/home/jarvis/robot_arm_ws/install/robot_ctrl_py/lib/python3.10/site-packages",
+        "/home/jarvis/colcon_ws/build/ur5_control",
+        "/home/jarvis/colcon_ws/install/ur5_control/lib/python3.10/site-packages",
+        "/home/jarvis/colcon_ws/install/pymoveit2/local/lib/python3.10/dist-packages",
+        "/home/jarvis/colcon_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages",
+        "/home/jarvis/colcon_ws/build/custom",
+        "/home/jarvis/colcon_ws/install/custom/lib/python3.10/site-packages",
+        "/home/jarvis/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
