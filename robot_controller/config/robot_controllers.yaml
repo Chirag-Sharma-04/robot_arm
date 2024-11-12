@@ -4,13 +4,14 @@ controller_manager:
 
     arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
-
+            
     gripper_controller:
       # type: joint_trajectory_controller/JointTrajectoryController
       type: forward_command_controller/ForwardCommandController
 
     joint_state_broadcaster:
-      type: joint_state_briadcaster/JointStateBroadcaster
+      type: joint_state_broadcaster/JointStateBroadcaster
+            
 
 arm_controller:
   ros__parameters:
@@ -19,10 +20,10 @@ arm_controller:
       - joint_2
       - joint_3
       
-    command_interface:
+    command_interfaces:
       - position
 
-    state_interface:
+    state_interfaces:
       - position
 
     open_loop_control: true
@@ -34,10 +35,10 @@ gripper_controller:
       - joint_4
 
     interface_name: position
-    # command_interface:
+    # command_interfaces:
     #   - position
 
-    # state_interface:
+    # state_interfaces:
     #   - position
 
     # open_loop_control: true
